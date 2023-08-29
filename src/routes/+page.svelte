@@ -44,12 +44,12 @@
 	<form class="form" method="post" use:enhance={handleSubmit}>
 		<label for="nama">
 			Nama
-			<input type="text" name="Name" id="nama" placeholder="Nama" />
+			<input type="text" name="Name" id="nama" placeholder="Nama" required />
 			<small>Masukkan nama anda, contoh : John Doe</small>
 		</label>
 		<label for="order">
 			Jenis Orderan
-			<input type="text" name="Order" id="order" placeholder="Jenis Orderan" />
+			<input type="text" name="Order" id="order" placeholder="Jenis Orderan" required />
 			<small
 				>Masukkan jenis orderan anda, contoh : Website - Nambah fitur, Website - Membuat Sistem
 				Akademik, dll</small
@@ -57,7 +57,7 @@
 		</label>
 		<label for="message">
 			Testimoni
-			<input type="text" name="Message" id="message" placeholder="Pesan" />
+			<input type="text" name="Message" id="message" placeholder="Pesan" required />
 			<small>Masukkan testimoni anda, contoh : Pengerjaan cepat</small>
 		</label>
 		<button type="submit" aria-busy={loading} class:waiting={loading} disabled={loading}

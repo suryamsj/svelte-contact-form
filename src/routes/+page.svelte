@@ -12,6 +12,7 @@
 
 	const handleSubmit = () => {
 		loading = true;
+		// @ts-ignore
 		return async ({ result, update }) => {
 			switch (result.type) {
 				case 'success':

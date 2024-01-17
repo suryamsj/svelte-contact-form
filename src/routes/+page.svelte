@@ -57,7 +57,7 @@
 		</label>
 		<label for="message">
 			Testimoni
-			<input type="text" name="Message" id="message" placeholder="Pesan" required />
+			<textarea name="Message" id="message" placeholder="Pesan" required></textarea>
 			<small>Masukkan testimoni anda, contoh : Pengerjaan cepat</small>
 		</label>
 		<button type="submit" aria-busy={loading} class:waiting={loading} disabled={loading}

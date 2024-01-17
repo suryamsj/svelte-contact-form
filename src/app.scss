@@ -89,6 +89,25 @@ body{
         }
     }
 
+    textarea{
+        padding: 6px 10px;
+        font-size: 16px;
+        background: #ECE6C2;
+        border: 1.5px solid #000000;
+        box-shadow: 0 5px #000000;
+        border-radius: 5px;
+        font-weight: 400;
+        height: 80px;
+
+        &:focus{
+            outline: none;
+        }
+
+        &::placeholder{
+            color: #000000b1;
+        }
+    }
+
     button{
         background: #73BDA8;
         padding: 5px 10px;
